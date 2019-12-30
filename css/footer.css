@@ -1,0 +1,37 @@
+/*************
+footer
+**************/
+
+footer {
+    height: 10rem;
+    background-color: #002147;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction:column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: auto;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 479px) {
+    footer {
+        padding: 1rem;
+        height: 13rem;
+    }
+
+    footer p {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+}

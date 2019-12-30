@@ -1,0 +1,80 @@
+body {
+  background-color: #e7e7e7;
+}
+
+/* this content box contains every content except navigation/header and footer */
+.content-box {
+  -webkit-box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
+  margin: 5px auto;
+  background-color: #fff;
+}
+
+/* page location bar */
+.location {
+  border-bottom: 2px solid #ddd;
+  background-color: #fff;
+}
+.location p {
+  font-size: 1.4rem;
+  color: grey;
+  padding: 4px;
+  margin: 0 0 0 5rem;
+}
+
+.location a {
+  color: grey;
+  text-decoration: none;
+}
+
+.location a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+.img-box {
+  width: 100%;
+}
+.img-box img {
+  width: 100%;
+}
+
+.heading-primary {
+  font: size 2.5rem;
+  color: #002c5e;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.row {
+  margin-bottom: 2rem;
+}
+/* .wid {
+  min-width: 100%;
+  position: absolute;
+  z-index: 100;
+} */
+
+/* horizantal lines between the content of website */
+.hr-line {
+  width: 80%;
+  height: 1px;
+  background-color: #c0c0c0;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 990px) {
+  .row > div:first-child {
+    margin-bottom: 1rem;
+  }
+
+  .row {
+    margin-bottom: 1rem;
+  }
+}
+
+/* main-content-1 has less padding used for all pages otherthan  chancellor,director,AO,FO pages */

@@ -1,0 +1,652 @@
+body {
+  background-color: #e7e7e7;
+}
+
+/* this content box contains every content except navigation/header and footer */
+.content-box {
+  -webkit-box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3);
+  margin: 5px auto;
+  background-color: #fff;
+}
+
+/* page location bar */
+.location {
+  border-bottom: 2px solid #ddd;
+  background-color: #fff;
+}
+.location p {
+  font-size: 1.4rem;
+  color: grey;
+  padding: 4px;
+  margin: 0 0 0 5rem;
+}
+
+.location a {
+  color: grey;
+  text-decoration: none;
+}
+
+.location a:hover {
+  text-decoration: underline;
+}
+
+/* Side navigation bar */
+
+.side-navigation {
+  background-color: #fff;
+  padding-top: 1px;
+}
+
+.fixed_side_navigation {
+    position: fixed;
+    top: 0;
+}
+
+.side-navigation-list {
+  margin: 2rem 0 0 1rem;
+}
+
+.side-navigation-items {
+  list-style: none;
+  padding: 2px;
+}
+
+.side-navigation-links:link,
+.side-navigation-links:visited {
+  font-size: 1.5rem;
+  color: #333;
+  display: block;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+  -webkit-transition: background-color 0.1s, color 0.1s;
+  -o-transition: background-color 0.1s, color 0.1s;
+  transition: background-color 0.1s, color 0.1s;
+}
+
+.side-navigation-links.active-item {
+  background-color: #002c5e;
+  color: #fff;
+}
+
+.side-navigation-links:hover,
+.side-navigation-links:active {
+  color: #fff;
+  background-color: #002c5e;
+}
+
+/* Main content box  */
+/* It contains  every information other than sidebar/side navigation, header, footer */
+/* main-content has large padding used for chancellor,director,AO,FO pages */
+.main-content {
+  background-color: #fff;
+  margin: 2rem 0 0 3.5rem;
+  border-left: 1px solid #c0c0c0;
+  padding: 0 2rem 0 5rem;
+}
+/* main-content-1 has less padding used for all pages otherthan  chancellor,director,AO,FO pages */
+
+.main-content-1 {
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+.main-info {
+  padding-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.main-info-1 {
+  padding-top: 1.5rem;
+}
+
+/* horizantal lines between the content of website */
+.hr-line {
+  width: 95%;
+  height: 1px;
+  background-color: #c0c0c0;
+}
+
+.hr-line-2 {
+  width: 100%;
+  height: 2px;
+  background-color: #002c5e;
+}
+
+.hr-line-3 {
+  width: 95%;
+  height: 1px;
+  background-color: #c0c0c0;
+  display: none;
+}
+
+.hr-line-4 {
+  width: 100%;
+  height: 1px;
+  background-color: #c0c0c0;
+}
+
+/* img box*/
+.main-image-box {
+  height: 15rem;
+}
+
+.main-image-box img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+/*small img box */
+.image-box-1 img {
+  height: 13rem;
+  border-radius: 10px;
+}
+
+.main-image {
+  height: 100%;
+}
+
+/*details like name,position etc */
+.details {
+  margin: 0 0 0 3rem;
+}
+
+/* main data */
+
+.main-data {
+  margin: 2rem;
+}
+
+.main-data h1 {
+  color: #002c5e;
+  margin-bottom: 1rem;
+  font-size: 2.3rem;
+}
+
+.main-data p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.more-data-link {
+  font-size: 1.4rem;
+  margin: -1rem 0 2rem 0;
+  display: block;
+}
+/* info card-data */
+
+.heading-teriatiry {
+  margin: 1rem 0;
+  font-size: 400;
+  font-size: 1.7rem;
+  color: #002c5e;
+}
+.info-card {
+  margin: 0 0 2rem 0;
+  padding: 2rem 1rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 100%;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.info-card-1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 100%;
+  margin: 0 0 2rem 0;
+  padding: 0;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.hod-card {
+  padding: 1rem;
+}
+
+.hod-card .info-card-img-box {
+  height: 13rem;
+}
+
+.info-card-1 .info-card-data p {
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.info-card-1 .info-card-data h3 {
+  margin-bottom: 2px;
+}
+
+.info-card-img-box {
+  height: 10rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.info-card-img-box img {
+  height: 100%;
+}
+
+.info-card-data {
+  margin-left: 2rem;
+}
+
+.info-card-data p {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Faculty pdf display in popup windows */
+.faculty-profile-box {
+    width: 60%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    overflow: hidden;
+}
+.faculty {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.profile-box-heading {
+    margin: 1rem 0 0 1rem;
+}
+.into {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    font-size: 15px;
+}
+
+/* Office Address*/
+.office-address {
+  margin-bottom: 2rem;
+}
+
+.contact-details {
+  margin-bottom: 1rem;
+}
+
+.office-address p,
+.contact-details p {
+  margin-bottom: 5px;
+}
+
+/* table styles  
+styles of conntact us page
+
+***/
+
+table {
+  color: #333;
+  font-size: 1.5rem;
+  overflow-x: scroll;
+  background-color: #fff;
+}
+
+tr {
+  border-bottom: 2px solid #ddd;
+}
+
+table td {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.scrollable {
+  min-width: 500px;
+  overflow-x: scroll;
+}
+
+/** Tenders  and carrers */
+
+.contact-table-width {
+  min-width: 600px;
+}
+
+.main-data .table-office tr td,
+.main-data .table-office tr th{
+  width: 25%;
+}
+
+.tender-head {
+  background-color: #002c5e;
+  color: #fff;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.tender-head th {
+  padding: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.tender-info {
+  width: 50%;
+  cursor: pointer;
+  min-width: 400px;
+}
+
+.tender-detail a {
+  color: #002c5e;
+  text-decoration: underline;
+}
+
+.color-green {
+  color: green;
+  font-weight: 500;
+}
+
+.color-red {
+  color: red;
+  font-weight: 500;
+}
+
+.td-bold tr td:first-child {
+  font-weight: 500;
+}
+
+td a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.tenders-table tr td:last-child {
+  padding: 2rem 0 2rem 2rem;
+}
+/*about rgukt
+
+styles of aboutrgukt.php, campuslife.php,educationsystem.php etc*/
+.rgukt-content {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+
+.heading-primary {
+  font: size 2.5rem;
+  color: #002c5e;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.heading-primary-1 {
+  font-size: 2rem;
+  color: #002c5e;
+}
+
+.heading-primary-2 {
+  font-size: 2rem;
+  color: #333;
+}
+.rgukt-content ul {
+  margin-left: 6rem;
+}
+
+.rgukt-content ul li {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.rgukt-content ol {
+  margin-left: 8rem;
+}
+
+.rgukt-content ol li {
+  margin-bottom: 1rem;
+}
+
+.rgukt-content p {
+  text-align: justify;
+  margin-left: 5rem;
+}
+
+.rgukt-content-links {
+  display: block;
+  margin-left: 3rem;
+  text-decoration: underline;
+  margin-bottom: 5px;
+  font-size: 1.6rem;
+}
+
+/*Governing council and excecutie councile */
+
+.council p {
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+/* departments page */
+
+summary {
+  background-color: #002c5e;
+  color: #fff;
+  padding: 1rem 3rem;
+  margin: 5px;
+  font-size: 1.8rem;
+  border-radius: 3px;
+}
+
+details ul {
+  list-style: none;
+  padding-left: 2rem;
+  margin-left: -3rem;
+}
+
+details ul li a:link,
+details ul li a:visited,
+details ul li a:active,
+details ul li a:hover {
+  color: #002e5c;
+  text-decoration: underline;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary:focus {
+  display: none;
+}
+
+/* card  */
+
+.card-1 {
+  -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card-img-box-1 {
+  width: 100%;
+  height: 15rem;
+}
+
+.card-img-box-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-info-1 {
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
+
+.card-info-1 a {
+  display: block;
+  color: #002147;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/*gallery*/
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+  .side-navigation {
+    display: none;
+  }
+
+  .main-content {
+    border-left: none;
+    padding: 0 2rem;
+    margin-left: 0;
+  }
+
+  .main-info {
+    padding-bottom: 0;
+  }
+
+  .main-image-box {
+    margin-left: 3rem;
+  }
+
+  .info-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .info-card-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .faculty-box .info-card {
+    margin: 0 auto;
+  }
+
+  .row > div {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .hr-line-3 {
+    display: block;
+  }
+
+  .gallery-box .row > div {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main-content {
+    padding: 0 0.5rem;
+  }
+  .main-content-1 {
+    margin: 0;
+    padding: 0;
+  }
+  .main-info {
+    display: block;
+    margin-left: 0;
+  }
+
+  .main-image-box {
+    margin-left: 3rem;
+  }
+
+  .main-data h1 {
+    font-size: 1.8rem;
+  }
+
+  .info-card {
+    padding: 1rem 0;
+    min-width: 0;
+    display: block;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  .info-card-1 {
+    display: block;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+
+  .hod-card {
+    padding: 1rem 0;
+  }
+
+  .info-card-img-box {
+    display: inline-block;
+    margin-left: 6%;
+    margin-bottom: 0;
+  }
+  .info-card-data {
+    margin-top: 0;
+  }
+
+  .info-card-1 .info-card-data p {
+    margin-bottom: 2px;
+  }
+
+  .info-card-1 .info-card-data h3 {
+    margin-bottom: 2px;
+  }
+  .row > div {
+    margin: 0 auto;
+    padding: 0;
+    width: 95%;
+  }
+     /*faculty pop up box*/
+    .faculty-profile-box {
+        width: 100%;
+        height: 600px;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+  /*about rgukt*/
+  .rgukt-content {
+    padding: 1rem 0;
+  }
+  .heading-primary {
+    margin-bottom: 0.5rem;
+  }
+
+  .rgukt-content ul {
+    margin-left: 3rem;
+  }
+
+  .rgukt-content ol {
+    margin-left: 5rem;
+  }
+
+  .rgukt-content p {
+    margin-left: 2rem;
+  }
+}
